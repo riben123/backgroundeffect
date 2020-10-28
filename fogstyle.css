@@ -1,16 +1,11 @@
 body {
-  background-color: black;
+  background: url(https://snipboard.io/ZJiqOR.jpg) repeat-x;
   color: white;
+  animation: move 10s linear infinite;
 }
 .wrapper {
   overflow: hidden;
-}
-.fog {
-  background: url(https://snipboard.io/ZJiqOR.jpg) repeat-x;
-  width: 1600px;
-  height: 1122px;
-  animation: move 10s linear infinite;
-  background-size: cover;
+  animation: none !important;
 }
 @keyframes move {
   0%{
