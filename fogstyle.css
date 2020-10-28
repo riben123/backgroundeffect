@@ -8,10 +8,10 @@ body {
   animation: none !important;
 }
 @keyframes move {
-  0%{
-    transform: translate3d(0, 0, 0);
+from {
+    background-position: 0 0;
   }
-  100%{
-    transform: translate3d(-125px, 0, 0);
+  to {
+    background-position: 100% 0;
   }
 }
